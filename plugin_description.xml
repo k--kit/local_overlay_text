@@ -1,0 +1,9 @@
+<library path="lib/liblocal_overlay_text">
+  <class name="local_overlay_text/LocalOverlayTextArray"
+         type="local_overlay_text::LocalOverlayTextArrayDisplay"
+         base_class_type="rviz::Display">
+    <description>
+      Displays text as overlay on local coordinates.
+    </description>
+  </class>
+</library>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package>
+  <name>local_overlay_text</name>
+  <version>1.0.0</version>
+  <description>The local_overlay_text package</description>
+  <maintainer email="k--kit@users.noreply.github.com">k--kit</maintainer>
+  <license>BSD</license>
+  <url type="website">https://github.com/k--kit/local_overlay_text</url>
+  <author email="k--kit@users.noreply.github.com">k--kit</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>diagnostic_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>rosbuild</build_depend>
+  <build_depend>rviz</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>image_publisher</run_depend>
+  <run_depend>message_generation</run_depend>
+  <run_depend>rviz</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+  <export>
+    <rviz plugin="${prefix}/plugin_description.xml"/>
+  </export>
+
+</package>

@@ -1,0 +1,10 @@
+<launch>
+  <node pkg="local_overlay_text"
+        type="overlay_text_sample.py"
+        respawn="true"
+        name="overlay_text_sample">
+  </node>
+  <node pkg="rviz" type="rviz" name="rviz"
+        output="screen"
+        args="-d $(find local_overlay_text)/cfg/overlay_sample.rviz"/>
+</launch>
