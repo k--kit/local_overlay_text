@@ -59,7 +59,7 @@ Visualization Manager:
       Value: true
     - Background Alpha: 0.800000012
       Background Color: 0; 0; 0
-      Class: local_overlay_text/LocalOverlayTextArray
+      Class: local_overlay_text/TextArray
       Enabled: true
       Foreground Alpha: 0.800000012
       Foreground Color: 25; 255; 240
